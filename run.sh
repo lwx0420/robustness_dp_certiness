@@ -1,0 +1,2 @@
+# CUDA_VISIBLE_DEVICES=0 python main.py --method=dpsgd-adv-smooth --dataset mnist --config num_augmentations=2 --config augment_noise_std=0.25
+CUDA_VISIBLE_DEVICES=2 python main.py --method=dpsgd-adv-smooth --dataset mnist --config num_augmentations=2 --config augment_noise_std=0.25

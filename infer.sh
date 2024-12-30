@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 python inference.py --load_dir ./fashion_mnist_ck_one_round_gamma2.0 --save_dir ./fashion_mnist_ck_infer --test_metrics certified_robustness accuracy

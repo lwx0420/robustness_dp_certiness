@@ -1,0 +1,2 @@
+export HF_ENDPOINT=https://hf-mirror.com
+CUDA_VISIBLE_DEVICES=3 python main.py --method=dpsgd-adv-smooth --dataset cifar10 --config num_augmentations=1 --config augment_noise_std=0.25 --config net=crossvit_tiny_240.in1k --config physical_batch_size=1 --config trades=True
